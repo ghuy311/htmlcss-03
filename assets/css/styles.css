@@ -294,7 +294,7 @@ li {
 }
 
 .service-item__icon--active {
-    #box-shadow: 0px 8px 16px 0px #289BDE26;
+    box-shadow: 0px 8px 16px 0px #289BDE26;
     color: #FFFFFF;
     background: #2E80CE;
 }
