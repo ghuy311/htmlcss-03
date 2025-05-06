@@ -30,6 +30,40 @@ li {
     margin: 0 auto;
 }
 
+.circle-left {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575F66;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-left__image {
+    width: 5px;
+    height: 10px;
+    border-width: 1px;
+}
+
+.circle-right {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background: #2E80CE;
+}
+
+.circle-right__image {
+    width: 5px;
+    height: 10px;
+    border-width: 1px;
+}
+
+
+
 .btn {
     --height: 60px;
 
@@ -437,4 +471,63 @@ li {
 
 .about-us__btn {
     margin-top: 38px;
+}
+
+/* team */
+.team {
+    margin-top: 291px;
+}
+
+.team-heading {
+    text-align: center;
+}
+
+.team__btn {
+    display: block;
+    width: fit-content;
+    margin: 53px auto 85px;
+}
+
+.team__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__list-item {
+    width: 270px;
+    border-radius: 6px;
+}
+
+.team__image {
+    width: 262px;
+    height: 290px;
+    border-radius: 6px;
+    object-fit: cover;
+    background: #EAF6FF;
+}
+
+.team__name {
+    margin-top: 12px;
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #10375C;
+}
+
+.team__desc {
+    margin: 9px auto 0;
+    width: 233px;
+    font-family: Sora;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.85;
+    letter-spacing: 0%;
+}
+
+.team__arrow {
+    margin-top: 38px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
 }
