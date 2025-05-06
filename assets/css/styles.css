@@ -52,6 +52,23 @@ li {
     cursor: pointer;
 }
 
+.section-heading {
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -2%;
+    color: #10375C;
+}
+
+.section-desc {
+    font-family: Sora;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #575F66;
+}
+
 /* Header */
 .header {
     min-height: 100vh;
@@ -211,12 +228,99 @@ li {
 
 }
 
-.hero__img:first-child{
+.hero__img:first-child {
     margin-right: -6px;
 }
+
 .hero__img:last-child {
     width: 210px;
     height: 410px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
+}
+
+/* Services */
+
+.services {
+    margin-top: 170px;
+}
+
+.services__heading,
+.services__desc {
+    text-align: center;
+}
+
+.services__desc {
+    margin-top: 18px;
+    max-width: 468px;
+    margin: 0 auto;
+}
+
+.service-row {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service__image {
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.service-item {
+    width: 470px;
+    padding: 22px;
+    display: flex;
+}
+
+.service-item--active {
+    box-shadow: 0px 14px 28px 0px #0000000D;
+}
+
+.service-item__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 16px 0px #0000000D;
+    background: #EFF6FD;
+    color: #10375C;
+}
+
+.service-item__icon--active {
+    #box-shadow: 0px 8px 16px 0px #289BDE26;
+    color: #FFFFFF;
+    background: #2E80CE;
+}
+
+.service-item__body {
+    margin-left: 19px;
+}
+
+.service-item__heading {
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0%;
+    color: #10375C;
+}
+
+.service-item__desc {
+    max-width: 351px;
+    font-family: Sora;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    letter-spacing: 0%;
+    color: #575F66;
+}
+
+.service__btn {
+    margin-top: 70px;
 }
