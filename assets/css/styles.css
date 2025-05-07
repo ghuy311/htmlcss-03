@@ -30,7 +30,8 @@ li {
     margin: 0 auto;
 }
 
-.circle-left {
+.circle-left,
+.circle-right {
     display: flex;
     width: 36px;
     height: 36px;
@@ -40,13 +41,10 @@ li {
     align-items: center;
 }
 
-.circle-left__image {
-    width: 5px;
-    height: 10px;
-    border-width: 1px;
-}
 
-.circle-right {
+.circle-left:hover,
+.circle-right:hover {
+    color: #fff;
     display: flex;
     width: 36px;
     height: 36px;
@@ -54,15 +52,8 @@ li {
     justify-content: center;
     align-items: center;
     background: #2E80CE;
+    border:none;
 }
-
-.circle-right__image {
-    width: 5px;
-    height: 10px;
-    border-width: 1px;
-}
-
-
 
 .btn {
     --height: 60px;
